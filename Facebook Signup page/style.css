@@ -1,0 +1,186 @@
+body {
+    font-family: "Google Sans", Arial, sans-serif;
+    background: #ffffff;
+}
+
+.container {
+    max-width: 620px;
+    background: #fff;
+    padding-right: 5px;
+    margin: 30px auto;
+    border-radius: 12px;
+}
+
+.left_arrow img {
+    display: block;
+    width: 22px;
+}
+
+.left_arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.left_arrow:hover {
+    background-color: #dbdde0;
+    cursor: pointer;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.logo img {
+    width: 25px;
+}
+
+.logo span {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.heading h3 {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.Text-para {
+    color: #65676b;
+    font-size: 14px;
+}
+
+.form-box label {
+    margin-top: 5px;
+    font-weight: 600;
+    padding: 2px;
+}
+
+.form-box input,
+.form-box select {
+    width: 100%;
+    padding: 15px;
+    margin-top: 6px;
+    border-radius: 10px;
+    border: 1px solid #ccd0d5;
+    font-size: 14px;
+    background: #f5f6f7;
+}
+
+
+.name {
+    display: flex;
+    gap: 10px;
+}
+
+.dob {
+    display: flex;
+    gap: 10px;
+}
+
+.Mobile {
+    border: 1px solid #ccd0d5;
+    background: #fff;
+}
+
+.small-text-1 {
+    font-size: 15px;
+    color: black;
+    margin-top: 8px;
+}
+
+.small-text-1 a {
+    color: #1877f2;
+    text-decoration: none;
+}
+
+.small-text-1 a:hover {
+    text-decoration: underline;
+}
+
+.small-text-2 {
+    font-size: 15px;
+    color: black;
+    margin-top: 25px;
+}
+
+.small-text-2 a {
+    color: #1877f2;
+    text-decoration: none;
+}
+
+.small-text-2 a:hover {
+    text-decoration: underline;
+}
+
+.small-text-3 {
+    font-size: 15px;
+    color: black;
+}
+
+.small-text-3 a {
+    color: #1877f2;
+    text-decoration: none;
+}
+
+.small-text-3 a:hover {
+    text-decoration: underline;
+}
+
+.small-text-4 {
+    font-size: 15px;
+    color: black;
+}
+
+.small-text-4 a {
+    color: #1877f2;
+    text-decoration: none;
+}
+
+.small-text-4 a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    background:#ffffff;
+    padding-bottom: 20px;
+}
+
+.footer-container {
+    max-width: 1000px;
+    margin: auto;
+    font-size: 14px;
+    color: #65676b;
+}
+
+.footer-languages,
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 12px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #787a7c;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-copy {
+    margin-top: 10px;
+    font-size: 13px;
+}
