@@ -66,9 +66,9 @@ body::after {
     }
 }
 
-/* ── Message Container (hidden by default) ── */
+/* Message Container (hidden by default) */
 .msg-container {
-    display: none;
+    display: flex;
     position: fixed;
     inset: 0;
     z-index: 100;
@@ -80,8 +80,8 @@ body::after {
     backdrop-filter: blur(6px);
 }
 
-.msg-container.show {
-    display: flex;
+.msg-container.hide {
+    display: none;
 }
 
 #msg {
@@ -98,7 +98,7 @@ body::after {
     animation: titlePulse 1.5s ease-in-out infinite;
 }
 
-/* ── New Game Button ── */
+/* New Game Button */
 #new-btn {
     font-family: 'Orbitron', sans-serif;
     font-weight: 700;

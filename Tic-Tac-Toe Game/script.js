@@ -1,10 +1,11 @@
 let boxes = document.querySelectorAll(".box");
 let resetBtn = document.getElementById("reset-btn");
-let msgContainer = document.querySelectorAll(".msg-container");
+let msgContainer = document.querySelector(".msg-container");
 let msg = document.getElementById("msg");
 let newGameBtn = document.getElementById("new-btn");
 
 let turnO = true;
+let count = 0;
 
 const winPatterns = [
   [0, 1, 2],
@@ -16,6 +17,13 @@ const winPatterns = [
   [0, 4, 8],
   [2, 4, 6],
 ];
+
+const resetGame = () => {
+  turnO = true;
+  count = 0;
+  enableBoxes();
+  msgContainer.classList.add("hide");
+};
 
 boxes.forEach((box) => {
   box.addEventListener("click", () => {
@@ -31,15 +39,41 @@ boxes.forEach((box) => {
       turnO = true;
     }
     box.disabled = true;
+    count++;
 
-    checkWinner();
+    let isWinner = checkWinner();
+
+    if (count === 9 && !isWinner) {
+      gameDraw();
+    }
   });
 });
 
 const showWinner = (winner) => {
-  msg.innerText = `Player ${pos1Val} Wins! 🏆`;
-  msgContainer.classList.add("show");
+  msg.innerText = `Player ${winner} Wins! 🏆`;
   msgContainer.classList.remove("hide");
+  disableBoxes();
+};
+
+const gameDraw = () => {
+  msg.innerText = `Game Draw!`;
+  msgContainer.classList.remove("hide");
+  disableBoxes();
+};
+
+const disableBoxes = () => {
+  boxes.forEach((box) => {
+    box.disabled = true;
+  });
+};
+
+const enableBoxes = () => {
+  boxes.forEach((box) => {
+    box.disabled = false;
+    box.innerText = "";
+    box.removeAttribute("data-player"); // removes outline/glow
+    box.classList.remove("win"); // removes winning animation if any
+  });
 };
 
 const checkWinner = () => {
@@ -50,9 +84,11 @@ const checkWinner = () => {
 
     if (pos1Val != "" && pos2Val != "" && pos3Val != "") {
       if (pos1Val === pos2Val && pos2Val === pos3Val) {
-        console.log("winner", pos1Val);
         showWinner(pos1Val);
       }
     }
   }
 };
+
+resetBtn.addEventListener("click", resetGame);
+newGameBtn.addEventListener("click", resetGame);
