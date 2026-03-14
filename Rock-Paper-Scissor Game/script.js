@@ -23,7 +23,6 @@ const showWinner = (userWin, userChoice, compChoice) => {
 };
 
 const drawGame = () => {
-  console.log("Game draw!");
   msg.innerText = "Game Draw";
   msg.style.backgroundColor = "#081b31";
 };
@@ -35,9 +34,7 @@ const genCompChoice = () => {
 };
 
 const playGame = (userChoice) => {
-  console.log("User Choice = ", userChoice);
   const compChoice = genCompChoice();
-  console.log("Computer Choice = ", compChoice);
 
   if (userChoice === compChoice) {
     drawGame();
