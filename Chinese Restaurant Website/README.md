@@ -257,10 +257,6 @@ To customize this project:
 - Ensure all CSS files are loaded (check Network tab in DevTools)
 - Test in a different browser
 
-## License
-
-This project is created for educational purposes as part of a web development course.
-
 ## Author
 
 Created by RAFAY as part of HTML, CSS, and JavaScript learning projects.
