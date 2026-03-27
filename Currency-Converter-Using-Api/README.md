@@ -20,10 +20,10 @@ A simple and responsive Currency Converter Web App that allows users to convert 
 ## Project Structure
 
 Currency-Converter-Using-Api/
-│── index.html # Main HTML file
-│── style.css # Styling file
-│── script.js # Main logic & API handling
-│── codes.js # Currency & country codes mapping
+│── index.html       # Main HTML file
+│── style.css        # Styling file
+│── script.js        # Main logic & API handling
+│── codes.js         # Currency & country codes mapping
 
 ## How It Works
 
