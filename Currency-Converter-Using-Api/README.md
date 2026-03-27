@@ -30,11 +30,12 @@ Currency-Converter-Using-Api/
 ## How It Works
 
 User selects:
-"From" currency
-"To" currency
-Enters the amount
-Clicks Convert
-App fetches real-time exchange rate from API and displays result
+
+- "From" currency
+- "To" currency
+- Enters the amount
+- Clicks Convert
+- App fetches real-time exchange rate from API and displays result
 
 ## API Used
 
@@ -57,9 +58,9 @@ https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api
 
 OR
 
-git clone https://github.com/codeby-rafay/HTML-CSS-JS-Projects.git
-cd Currency-Converter-Using-Api
-open index.html
+- git clone https://github.com/codeby-rafay/HTML-CSS-JS-Projects.git
+- cd Currency-Converter-Using-Api
+- open index.html
 
 ## Future Improvements
 
@@ -71,4 +72,5 @@ open index.html
 ## Author
 
 Rafay Ali Saleem
+
 Full Stack Web Developer
