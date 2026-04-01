@@ -9,5 +9,5 @@ function convertToFahrenheit() {
     
     let farenheit = (celsius * 9/5) + 32;
 
-    document.getElementById("result").innerHTML = `${celsius} C = ${farenheit.toFixed(2)} F`
+    document.getElementById("result").innerHTML = `${celsius} °C = ${farenheit.toFixed(2)} °F`
 }
