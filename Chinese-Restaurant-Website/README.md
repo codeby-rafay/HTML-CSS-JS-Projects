@@ -259,8 +259,12 @@ To customize this project:
 
 ## Author
 
-Created by RAFAY as part of HTML, CSS, and JavaScript learning projects.
+As part of HTML, CSS, and JavaScript learning projects.
+
+## Author
+
+Rafay Ali
 
 ---
 
-**Last Updated**: March 2026
+**Happy Coding!**

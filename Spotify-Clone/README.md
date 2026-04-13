@@ -3,6 +3,7 @@
 A simple Spotify-inspired music player web app built using HTML, CSS, and JavaScript. This project replicates the basic UI and functionality of Spotify, allowing users to play, pause, and navigate songs.
 
 ## Features
+
 - Play & pause songs
 - Next & previous track controls
 - Volume control & mute option
@@ -12,6 +13,7 @@ A simple Spotify-inspired music player web app built using HTML, CSS, and JavaSc
 - Sidebar menu (hamburger toggle)
 
 ## Technologies Used
+
 - HTML5 – Structure of the app
 - CSS3 – Styling and layout
 - JavaScript (Vanilla JS) – Functionality and interactivity
@@ -33,6 +35,7 @@ Spotify Clone/
 ```
 
 ## How to Run
+
 - Download or clone the repository
 - Open the project folder
 - Double-click on index.html
@@ -44,6 +47,7 @@ Run using Live Server (recommended in VS Code):
 Right click index.html → Open with Live Server
 
 ## Functionality Overview
+
 - Songs are loaded dynamically from folders
 - JSON files (info.json) store playlist metadata
 - JavaScript handles:
@@ -56,11 +60,13 @@ Right click index.html → Open with Live Server
 A Spotify-like interface with playlists, music controls, and responsive layout.
 
 ## Limitations
+
 - No backend (pure frontend project)
 - No user authentication
 - Songs are locally stored (not streamed)
 
 ## Future Improvements
+
 - Add backend (Node.js / Database)
 - User login & playlists
 - Search functionality
@@ -71,4 +77,4 @@ A Spotify-like interface with playlists, music controls, and responsive layout.
 
 Rafay Ali Saleem
 
-Full Stack Web Developer
+**Happy Coding!**
